@@ -38,7 +38,9 @@ PowerShellとWindows標準機能だけで自動化することを目的に作成
 内容を理解した上で自己責任で使用してください。
 
 Use this script at your own risk.
+
 The author is not responsible for any data loss or damage caused by the use of this script.
+
 Please back up your files before use.
 
 ## License
