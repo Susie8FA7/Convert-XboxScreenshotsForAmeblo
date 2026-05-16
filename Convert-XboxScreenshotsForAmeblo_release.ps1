@@ -16,7 +16,7 @@ $OutputFolder = 'ブログ用jpgファイルの出力先フォルダを指定し
 # 元PNG/JXRファイルを退避するNASフォルダ
 $ArchiveFolder = 'NAS上のフォルダなど、退避用の場所を指定してください'
 
-# スクリーンショットファイルの頭に入る、ゲームタイトルを指定。今回は'Forza Horizon 6'
+# スクリーンショットファイル名の頭に入る、ゲームタイトルを指定。今回は'Forza Horizon 6'
 $FileNamePrefix = 'Forza Horizon 6'
 
 # JPG最大横幅
