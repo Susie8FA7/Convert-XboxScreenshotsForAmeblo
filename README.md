@@ -6,6 +6,9 @@ Amebaブログ投稿用JPGへ変換するPowerShellスクリプトです。
 OneDriveの容量節約のため、変換処理後に元フォルダから退避フォルダに画像ファイルを移動します。
 Xbox HDRスクリーンショット運用を、
 PowerShellとWindows標準機能だけで自動化することを目的に作成しました。
+コード例は「Forza Horizon 6」対応になっていますが
+コード内の $FileNamePrefixの中身を変更することで、他のタイトルにも対応します。
+空文字にすると、全タイトル(Xboxスクリーンショット全体)に対応します。
 
 ## Features
 
