@@ -1,7 +1,7 @@
 # Convert-XboxScreenshotsForSNS
 
-XboxスクリーンショットPNGを、
-Amebaブログなど、SNS投稿用にJPGへ変換するPowerShellスクリプトです。
+XboxスクリーンショットのPNGファイルを、
+Amebaブログなど、SNS投稿用にJPGファイルへ変換するPowerShellスクリプトです。
 
 
 サイズ変更とファイル形式変更をしているだけなので、他のSNS用にも使えます。
