@@ -1,11 +1,5 @@
 # Convert-XboxScreenshotsForSNS
 
-2026-05-26
-Repository renamed from
-Convert-XboxScreenshotsForAmeblo
-to
-Convert-XboxScreenshotsForSNS
-
 XboxスクリーンショットPNGを、
 Amebaブログなど、SNS投稿用にJPGへ変換するPowerShellスクリプトです。
 
@@ -59,11 +53,41 @@ NASなど容量に余裕のある場所を指定するのが、おすすめで�
 - PowerShell 5.1以上
 - Windows 11 標準機能の Windows Imaging Component (WIC)
 
+## Configuration
+
+### Xbox console screenshots via OneDrive
+
+$InputFolder = "C:\Users\(UserName)\OneDrive\画像\Xbox Screenshots"
+
+### PC Game screenshots
+
+$InputFolder = "D:\Users\(UserName)\Videos\Captures"
+
+### Output folder
+
+$OutputFolder = "D:\SNS"
+
+### Archive folder
+
+$ArchiveFolder = "\\NAS\share\XboxScreenshotsArchive"
+
+### Target title
+
+$FileNamePrefix = "Forza Horizon 6"
+
 ## Usage
 
 1. ps1内の設定値を変更
 2. PowerShellで実行
 3. 必要に応じてタスクスケジューラーへ登録
+
+## History
+
+2026-05-26
+Repository renamed from
+Convert-XboxScreenshotsForAmeblo
+to
+Convert-XboxScreenshotsForSNS
 
 ## Disclaimer
 
