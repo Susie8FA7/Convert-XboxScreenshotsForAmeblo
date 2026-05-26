@@ -65,14 +65,14 @@ $ArchiveFolder = "\\NAS\share\XboxScreenshotsArchive"
 
 ### Target title
 
-Ex.Forza Horizon 6
+Example: Forza Horizon 6 only
 
 ```powershell
 $FileNamePrefix = "Forza Horizon 6"
 ```
 
 
-Ex.All Titles
+Example: All Titles
 
 ```powershell
 $FileNamePrefix = ""
