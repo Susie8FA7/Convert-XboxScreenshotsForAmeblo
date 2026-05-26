@@ -1,6 +1,6 @@
 ﻿#requires -version 5.1
 <#
-Converts Xbox screenshot PNG files for Ameba blog posting.
+Converts Xbox screenshot PNG files for SNS posting.
 
 This script uses Windows Imaging Component (WIC) through .NET/WPF classes
 included with Windows 11. It does not use external modules, ImageMagick, or
