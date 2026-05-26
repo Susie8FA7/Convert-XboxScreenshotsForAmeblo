@@ -26,9 +26,9 @@ PowerShellとWindows標準機能だけで自動化することを目的に作成
 
 `$InputFolder`の中身は、スクリーンショットファイルが入っているフォルダのパスを指定します。
 
-Xboxコンソールの場合の例：「C:\Users\(PCのログインユーザー名)\OneDrive\画像\Xbox Screenshots」
+Xboxコンソールの場合の例：「C:\Users\\(PCのログインユーザー名)\OneDrive\画像\Xbox Screenshots」
 
-PCのXboxストアのゲームの場合の例：「(Windowsの新しい写真とビデオの保存先ドライブ):\Users\(PCのログインユーザー名)\Videos\Captures」
+PCのXboxストアのゲームの場合の例：「(Windowsの新しい写真とビデオの保存先ドライブ):\Users\\(PCのログインユーザー名)\Videos\Captures」
 
 
 `$OutputFolder`の中身は、SNS投稿用に変換したJPGファイルを出力するフォルダのパスを指定します。
