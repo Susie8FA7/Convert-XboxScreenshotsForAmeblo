@@ -39,7 +39,7 @@ $InputFolder = "C:\Users\\(UserName)\OneDrive\Pictures\Xbox Screenshots"
 
 ### Xbox console screenshots via OneDrive(Japanese Windows)
 
-$InputFolder = "C:\Users\\(UserName)\OneDrive\画像\Xbox Screenshots"
+$InputFolder = "C:\Users\\(ユーザー名)\OneDrive\画像\Xbox Screenshots"
 
 ### PC Game screenshots
 
