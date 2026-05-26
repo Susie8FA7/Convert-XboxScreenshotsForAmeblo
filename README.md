@@ -57,11 +57,11 @@ NASなど容量に余裕のある場所を指定するのが、おすすめで�
 
 ### Xbox console screenshots via OneDrive
 
-$InputFolder = "C:\Users\(UserName)\OneDrive\画像\Xbox Screenshots"
+$InputFolder = "C:\Users\\(UserName)\OneDrive\画像\Xbox Screenshots"
 
 ### PC Game screenshots
 
-$InputFolder = "D:\Users\(UserName)\Videos\Captures"
+$InputFolder = "D:\Users\\(UserName)\Videos\Captures"
 
 ### Output folder
 
