@@ -35,34 +35,48 @@ PowerShellとWindows標準機能だけで自動化することを目的に作成
 
 ### Xbox console screenshots via OneDrive(English)
 
+```powershell
 $InputFolder = "C:\Users\\(UserName)\OneDrive\Pictures\Xbox Screenshots"
+```
 
 ### Xbox console screenshots via OneDrive(Japanese Windows)
 
+```powershell
 $InputFolder = "C:\Users\\(ユーザー名)\OneDrive\画像\Xbox Screenshots"
+```
 
 ### PC Game screenshots
 
+```powershell
 $InputFolder = "D:\Users\\(UserName)\Videos\Captures"
+```
 
 ### Output folder
 
+```powershell
 $OutputFolder = "D:\SNS"
+```
 
-### Archive folder
+### Archive folder(original PNG/JXR files are moved here after conversion)
 
+```powershell
 $ArchiveFolder = "\\NAS\share\XboxScreenshotsArchive"
+```
 
 ### Target title
 
 Ex.Forza Horizon 6
 
+```powershell
 $FileNamePrefix = "Forza Horizon 6"
+```
 
 
 Ex.All Titles
 
+```powershell
 $FileNamePrefix = ""
+```
 
 ## Usage
 
