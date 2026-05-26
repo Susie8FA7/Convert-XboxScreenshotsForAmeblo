@@ -1,4 +1,10 @@
-# Convert-XboxScreenshotsForAmeblo
+# Convert-XboxScreenshotsForSNS
+
+2026-05-26
+Repository renamed from
+Convert-XboxScreenshotsForAmeblo
+to
+Convert-XboxScreenshotsForSNS
 
 XboxスクリーンショットPNGを、
 Amebaブログなど、SNS投稿用にJPGへ変換するPowerShellスクリプトです。
@@ -16,8 +22,24 @@ Xbox HDRスクリーンショット運用を、
 PowerShellとWindows標準機能だけで自動化することを目的に作成しました。
 
 
-コード例は「Forza Horizon 6」対応になっていますが、
-コード内の`$FileNamePrefix`の中身を変更することで、他のタイトルにも対応します。
+コードの変更箇所例：
+
+`$InputFolder`の中身は、スクリーンショットファイルが入っているフォルダのパスを指定します。
+
+Xboxコンソールの場合の例：「C:\Users\(PCのログインユーザー名)\OneDrive\画像\Xbox Screenshots」
+
+PCのXboxストアのゲームの場合の例：「(Windowsの新しい写真とビデオの保存先ドライブ):\Users\(PCのログインユーザー名)\Videos\Captures」
+
+
+`$OutputFolder`の中身は、SNS投稿用に変換したJPGファイルを出力するフォルダのパスを指定します。
+
+
+`$ArchiveFolder`の中身は、変換前のスクリーンショットファイルを、バックアップするパスを指定します。
+NASなど容量に余裕のある場所を指定するのが、おすすめです！
+
+
+`$FileNamePrefix`の中身は、「Forza Horizon 6」対応になっていますが、
+スクリーンショットファイル名の頭に入る、他のゲームタイトルに変更することで、いろいろなタイトルに対応します。
 
 空文字にすると、全タイトル(Xboxスクリーンショット全体)に対応します。
 
