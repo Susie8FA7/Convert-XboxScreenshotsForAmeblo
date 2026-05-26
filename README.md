@@ -33,22 +33,22 @@ PowerShellとWindows標準機能だけで自動化することを目的に作成
 
 ## Configuration
 
-### Xbox console screenshots via OneDrive(English)
-
-```powershell
-$InputFolder = "C:\Users\\(UserName)\OneDrive\Pictures\Xbox Screenshots"
-```
-
 ### Xbox console screenshots via OneDrive(Japanese Windows)
 
 ```powershell
-$InputFolder = "C:\Users\\(ユーザー名)\OneDrive\画像\Xbox Screenshots"
+$InputFolder = "C:\Users\(ユーザー名)\OneDrive\画像\Xbox Screenshots"
+```
+
+### Xbox console screenshots via OneDrive(English)
+
+```powershell
+$InputFolder = "C:\Users\(UserName)\OneDrive\Pictures\Xbox Screenshots"
 ```
 
 ### PC Game screenshots
 
 ```powershell
-$InputFolder = "D:\Users\\(UserName)\Videos\Captures"
+$InputFolder = "D:\Users\(UserName)\Videos\Captures"
 ```
 
 ### Output folder
