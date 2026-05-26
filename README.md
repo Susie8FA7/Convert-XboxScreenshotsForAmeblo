@@ -15,28 +15,6 @@ OneDriveの容量節約のため、変換処理後に元フォルダから退避
 Xbox HDRスクリーンショット運用を、
 PowerShellとWindows標準機能だけで自動化することを目的に作成しました。
 
-
-コードの変更箇所例：
-
-`$InputFolder`の中身は、スクリーンショットファイルが入っているフォルダのパスを指定します。
-
-Xboxコンソールの場合の例：「C:\Users\\(PCのログインユーザー名)\OneDrive\画像\Xbox Screenshots」
-
-PCのXboxストアのゲームの場合の例：「(Windowsの新しい写真とビデオの保存先ドライブ):\Users\\(PCのログインユーザー名)\Videos\Captures」
-
-
-`$OutputFolder`の中身は、SNS投稿用に変換したJPGファイルを出力するフォルダのパスを指定します。
-
-
-`$ArchiveFolder`の中身は、変換前のスクリーンショットファイルを、バックアップするパスを指定します。
-NASなど容量に余裕のある場所を指定するのが、おすすめです！
-
-
-`$FileNamePrefix`の中身は、「Forza Horizon 6」対応になっていますが、
-スクリーンショットファイル名の頭に入る、他のゲームタイトルに変更することで、いろいろなタイトルに対応します。
-
-空文字にすると、全タイトル(Xboxスクリーンショット全体)に対応します。
-
 ## Features
 
 - PNG → JPG変換
@@ -55,7 +33,11 @@ NASなど容量に余裕のある場所を指定するのが、おすすめで�
 
 ## Configuration
 
-### Xbox console screenshots via OneDrive
+### Xbox console screenshots via OneDrive(English)
+
+$InputFolder = "C:\Users\\(UserName)\OneDrive\Pictures\Xbox Screenshots"
+
+### Xbox console screenshots via OneDrive(Japanese Windows)
 
 $InputFolder = "C:\Users\\(UserName)\OneDrive\画像\Xbox Screenshots"
 
@@ -73,7 +55,14 @@ $ArchiveFolder = "\\NAS\share\XboxScreenshotsArchive"
 
 ### Target title
 
+Ex.Forza Horizon 6
+
 $FileNamePrefix = "Forza Horizon 6"
+
+
+Ex.All Titles
+
+$FileNamePrefix = ""
 
 ## Usage
 
