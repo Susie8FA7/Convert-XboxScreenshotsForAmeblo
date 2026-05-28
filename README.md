@@ -78,6 +78,15 @@ Example: All Titles
 $FileNamePrefix = ""
 ```
 
+## Additional Setup
+
+タスクスケジューラの設定の仕方については、ブログの方でもう少し詳しく解説しています。
+
+For automatic execution using Windows Task Scheduler,
+see the following article (Japanese with screenshots):
+
+[https://ameblo.jp/...](https://ameblo.jp/susie8fa7/entry-12967511755.html)
+
 ## Usage
 
 1. ps1内の設定値を変更
